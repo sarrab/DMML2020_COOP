@@ -1,8 +1,9 @@
 # Data Mining and Machine Learning -Master in Information Systems-2020 – COOP
 
+##Authors:
 - Osman Gokturk
 - Jessy Inaka
--Sarra Berich
+- Sarra Berich
 
 ## Video presentation
 
@@ -24,26 +25,30 @@
 ### Real or Not? NLP with Disaster Tweets 
 Text Analytics is one of the dynamic and frequently used field of Data Mining and Machine Learning. In this project we tried to make prediction based on a test data, which lack labels. We tried to guess correctly the labels as much as possible. 
 
-
-
-
-
 ### Our approach
-After defining several different data cleaner and preprocessing functions, we implemented for different type of models like: LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, Grid Search algorithm. We tried to observe the efficiency of these models under different data cleaner and preprocessing functions. One of the earlier conclusion was the fact that further cleaning like implementing stemming had a negatif effect on the result. 
+After defining several different data cleaner and preprocessing functions, we implemented for different type of models like: LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, Grid Search algorithm. We tried to observe the efficiency of these models under different data cleaner and preprocessing functions. One of the earlier conclusion was the fact that further cleaning like implementing stemming had a negatif effect on the result. Based on this finding, we tried to hyperparametrize under different models. 
+
+However, one of our final conlcusion was the fact that data cleaning stage could matter a lot. 
 
 
-## 2. Initial Setup
-As a first step, the user is required to import the necessary libraries and packages as well as the datasets, which consist in the training and test set. Moreover, our team provides a set up to directly create submissions for the website AIcrowd and a brief description of the features in the present dataset.
+## 2. Import of Libraries
+WE had imported the relevant libraries that we were using in the class over the weeks. In adition to frequent libraries like pandas, mathplot, scikit-learn we made use of re, nltk as well. 
+
+## 3.Data Set
+Data consist of two set of data. The first one is around 6.5K "Disaster Tweets" with the associated label, whether they indicate true or not true disasters. Apart from the text, tweet id, keyword and location. 
+
+The second data set was a smaller data set which did not contain the label column. Predicting the label column was the job of the project. 
 
 
-# DMML2020_COOP
+## 4.EDA Exploration
+WE had explored the data to observe the initial visualizations. We run frequency bars, scatter plots and correlation matrices to observe the relationships. In fact there was no obvious pattern in the data. This made us conclude that a further text analytics could make better predictions. 
 
-This folder contains the files and codes from our group project of "Disaster tweets", which was about the text analytics.
+## 5. Data Cleaning and Preprocessing
+We defined different cleaning and preprocessing functions to process the tweet texts. Upon initial observation we decided not to make stemming.
 
-The code files contains codes for LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, Grid Search algorithm.
+## 6.Models
+We had tryied different models to increase the test accuracy. We made use of LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier to observe the test results. 
 
-Predictions were calculated and submitted. The files are under the directory "documents".
 
-Authors: Sarra Berich, Jessy Inaka, Osman Gokturk
-Name of the Course: Data Mining and Machine Learning, Unil, 
+
 
