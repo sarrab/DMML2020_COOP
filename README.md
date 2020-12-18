@@ -84,7 +84,7 @@ We tried to explore models with parameters that would generate the highest accur
 ## 8. Video presentation
 
 [![DMML2020 – Team COOP]('https://www.youtube.com/watch?v=iV5zGblNjbM&feature=youtu.be')
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iV5zGblNjbM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 
