@@ -84,7 +84,7 @@ We tried to explore models with parameters that would generate the highest accur
 ## 8. Video presentation
 
 [![DMML2020 – Team COOP]('https://www.youtube.com/watch?v=iV5zGblNjbM&feature=youtu.be')
-[![DMML2020 – Team COOP](https://i.ytimg.com/vi/dBPvnDJUlF8/maxresdefault.jpg)](https://www.youtube.com/watch?v=iV5zGblNjbM&feature=youtu.be")
+[![DMML2020 – Team COOP]](https://www.youtube.com/watch?v=iV5zGblNjbM&feature=youtu.be")
 
 
 
