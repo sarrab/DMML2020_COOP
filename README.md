@@ -68,7 +68,7 @@ We defined different cleaning and preprocessing functions to process the tweet t
 Feature engineering playing a crucial role, this work focuses on it. All the parameters, namely text, location and keyword, are considered as important; hence, many of the models are built taking them all into account as predictors. Further, the analysis shows that the length of the word is equally important, our study captures it and thus creates a new feature named Average word length to be used as another predictor. Furthermore, with the explosion of dimensionality space after vectorization by TF_IDF, which this study mainly uses, Principal Component Anlysis is used to reduce the latter dimensionality.
 
 ## 6.Models
-We had tryied different models to increase the test accuracy. We made use of LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier to observe the test results. 
+We had tried different models to increase the test accuracy. We made use of LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier to observe the test results. 
 the graph below shows the efficiency comparaison between models.
 
 ![alt text](https://github.com/sarrab/DMML2020_COOP/blob/main/documents/EfficiencyComp.PNG?raw=true)
