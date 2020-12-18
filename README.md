@@ -82,8 +82,6 @@ The graph below shows the accuracies of our models.
 We tried to explore models with parameters that would generate the highest accuracies. Then we fitted with the given data set where labes are known. After this, we run for the test data and made predictions to submitted.  
 
 ## 8. Video presentation
-
-[![DMML2020 – Team COOP]('https://www.youtube.com/watch?v=iV5zGblNjbM&feature=youtu.be')
 [![DMML2020 – Team COOP]](https://www.youtube.com/watch?v=iV5zGblNjbM&feature=youtu.be")
 
 
