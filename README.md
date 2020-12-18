@@ -73,7 +73,7 @@ The graph below shows the efficiency comparaison between models.
 
 ![alt text](https://github.com/sarrab/DMML2020_COOP/blob/main/documents/EfficiencyComp.PNG?raw=true)
 
-The graph below shows the accuricies of our models.
+The graph below shows the accuracies of our models.
 
 
 ![alt text](https://github.com/sarrab/DMML2020_COOP/blob/main/documents/AccuracyGraph.PNG?raw=true)
