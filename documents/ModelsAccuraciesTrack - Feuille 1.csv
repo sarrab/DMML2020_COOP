@@ -1,0 +1,22 @@
+Model ,Parmeters,Cleaning,"Vetcorizing (type :TF-IDF, BOW?)",Number of features,Features ?,Accuray,Time
+LogisticRegressionCV,"(solver='lbfgs', max_iter=1000, cv=5)",spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",,,"0,817",
+DecisionTreeClassifier,(max_depth=5),spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",,,"0,6349",
+KNeighborsClassifier,(n_neighbors=5),spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",,,"0,6629",
+KNeighborsClassifier,"(n_neighbors=82, p=2, weights='distance')",spacy tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",,,"0,7697",
+RandomForestClassifier(),,,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",,,"0,8004",
+RandomForestClassifier(),,,,,,"0,76746",
+LogisticRegressionCV,"(solver='lbfgs', max_iter=1000, cv=5)",,,,*down resampling,"0,77762",
+LogisticRegressionCV,"(solver='lbfgs', max_iter=1000, cv=5)",data_cleaner,,,,"0,78778",
+LogisticRegressionCV,"(solver='lbfgs', max_iter=1000, cv=5)",spacy_tokenizer,,,,"0,8081",
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",No Cleaning - Raw Data,"TfidfVectorizer(use_idf = True, max_df = 0.95)",1,,"0,8029",0.21317
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",1,,"0,8099",66.0372
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",Dataframe Cleaning-missing values removal/duplicated ones + spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",1,,"0,8073",65.175
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",No cleaning- Raw Data,"TfidfVectorizer(use_idf = True, max_df = 0.95)",2,,"0,8012",0.22149
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",No cleaning- Raw Data,"TfidfVectorizer(use_idf = True, max_df = 0.95)",3,,"0,7819", 0.21900
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",2,,"0,7915",66.9088
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",Dataframe Cleaning-missing values removal/duplicated ones + spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",2,,"0,7898",
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",Dataframe Cleaning-missing values removal/duplicated ones + spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",3,,"0,7872",46.032
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",Dataframe Cleaning-missing values removal/duplicated ones + spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",1,*down resampling,"0,7889",53.788
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",Dataframe Cleaning-missing values removal/duplicated ones + spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",3,*down resampling,"0,7994",
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",Dataframe Cleaning-missing values removal/duplicated ones + spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",2,*up resampling,"0,795",
+LogisticRegression(),"solver='saga', max_iter=1000, random_state = 72",Dataframe Cleaning-missing values removal/duplicated ones + spacy_tokenizer,"TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)",2,up resampling,"0,7968",
