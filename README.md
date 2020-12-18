@@ -5,8 +5,6 @@
 - Jessy Inaka
 - Sarra Berich
 
-Submission results
-![Submission results](https://github.com/tograh/testrepository/3DTest.png 861)
 ## Folder Structure
 1. documents
   1.1.submission csv files
@@ -14,8 +12,8 @@ Submission results
   
 2. codes
   - 2.1 EDA.ipynb : This notebook contains exploratory data analysis and the hyperlinks to other notebooks. We recommend starting from this file. 
-  - 2.2 Classification_Models : this notebook come after the EDA one. It contain experimentation with all models that we tried.
-  - 2.3 LR_Models : This model comes after EDA one. And it conatins only Logistic Regeression with raw and cleaned data and feature selection.
+  - 2.2 Classification_Models : this notebook comes after the EDA one. It contains experimentation with all models that we tried.
+  - 2.3 LR_Models : This model comes after the EDA notebook. And it contains only Logistic Regression with raw and cleaned data and feature selection.
   - 2.4 Cleaning : It represents the deep cleaning that we performed at the end before applying our last model (last improvements).
   - 2.3 Last_Version : It represents our last version based on the conclusions retrieved form previous experiences. But, unfortunately the concurrence site was closed.
   
@@ -44,7 +42,7 @@ Text Analytics is one of the dynamic and frequently used field of Data Mining an
 
 
 ## 2. Methodology
-After defining several different data cleaner and preprocessing functions, we implemented for different type of models like: LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, Grid Search algorithm. We tried to observe the efficiency of these models under different data cleaner and preprocessing functions. One of the earlier conclusion was the fact that further cleaning like implementing stemming had a negatif effect on the result. Based on this finding, we tried to hyperparametrize under different models. 
+After defining several different data cleaner and preprocessing functions, we implemented for different type of models like: LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, Grid Search algorithm. We tried to observe the efficiency of these models under different data cleaner and preprocessing functions. One of the earlier conclusion was the fact that further cleaning like implementing stemming had a negative effect on the result. Based on this finding, we tried to hyperparameterize under different models. 
 
 However, one of our final conlcusion was the fact that data cleaning stage could matter a lot. 
 
