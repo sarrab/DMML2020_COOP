@@ -6,18 +6,20 @@
 - Sarra Berich
 
 ## Folder Structure
-1. documents
-  1.1.submission csv files
-  1.2. Some result files to save the resulting accuracies
+### 1. documents
+  - 1.1. Submission csv files
+  - 1.2. Some result files to save the resulting accuracies
+  - 1.3  Project Description
+  - 1.4  Somme pictures
   
-2. codes
+### 2. codes
   - 2.1 EDA.ipynb : This notebook contains exploratory data analysis and the hyperlinks to other notebooks. We recommend starting from this file. 
   - 2.2 Classification_Models : this notebook comes after the EDA one. It contains experimentation with all models that we tried.
   - 2.3 LR_Models : This model comes after the EDA notebook. And it contains only Logistic Regression with raw and cleaned data and feature selection.
   - 2.4 Cleaning : It represents the deep cleaning that we performed at the end before applying our last model (last improvements).
-  - 2.3 Last_Version : It represents our last version based on the conclusions retrieved form previous experiences. But, unfortunately the concurrence site was closed.
+  - 2.5 Last_Version : It represents our last version based on the conclusions retrieved form previous experiences. But, unfortunately the concurrence site was closed.
   
-3. data:
+### 3. data:
   - 3.1 train_data
   - 3.2 test_data
   - 3.3 cleaned_data
@@ -72,6 +74,7 @@ Feature engineering playing a crucial role, this work focuses on it. All the par
 ## 6.Models
 We had tryied different models to increase the test accuracy. We made use of LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier to observe the test results. 
 the graph below shows the efficiency comparaison between models.
+
 ![alt text](https://github.com/sarrab/DMML2020_COOP/blob/main/documents/EfficiencyComp.PNG?raw=true)
 
 ## 7. Submissions
