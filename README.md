@@ -1,6 +1,6 @@
 # Data Mining and Machine Learning -Master in Information Systems-2020 – COOP
 
-##Authors:
+## Authors:
 - Osman Gokturk
 - Jessy Inaka
 - Sarra Berich
