@@ -5,28 +5,24 @@
 - Jessy Inaka
 - Sarra Berich
 
-Submission results
-![Submission results](https://github.com/tograh/testrepository/3DTest.png 861)
 ## Folder Structure
-1. documents
-  1.1.submission csv files
-  1.2. Some result files to save the resulting accuracies
+**1. documents**
+  - 1.1. Submission csv files
+  - 1.2. Some result files to save the resulting accuracies
+  - 1.3  Project Description
+  - 1.4  Somme pictures
   
-2. codes
+**2. codes**
   - 2.1 EDA.ipynb : This notebook contains exploratory data analysis and the hyperlinks to other notebooks. We recommend starting from this file. 
-  - 2.2 Classification_Models : this notebook come after the EDA one. It contain experimentation with all models that we tried.
-  - 2.3 LR_Models : This model comes after EDA one. And it conatins only Logistic Regeression with raw and cleaned data and feature selection.
+  - 2.2 Classification_Models : this notebook comes after the EDA one. It contains experimentation with all models that we tried.
+  - 2.3 LR_Models : This model comes after the EDA notebook. And it contains only Logistic Regression with raw and cleaned data and feature selection.
   - 2.4 Cleaning : It represents the deep cleaning that we performed at the end before applying our last model (last improvements).
-  - 2.3 Last_Version : It represents our last version based on the conclusions retrieved form previous experiences. But, unfortunately the concurrence site was closed.
+  - 2.5 Last_Version : It represents our last version based on the conclusions retrieved form previous experiences. But, unfortunately the concurrence site was closed.
   
-3. data:
+**3. data**
   - 3.1 train_data
   - 3.2 test_data
   - 3.3 cleaned_data
-## Video presentation
-
-[![DMML2020 – Team COOP](")
-
 
 ## Table of Contents
 1. Introduction
@@ -44,9 +40,13 @@ Text Analytics is one of the dynamic and frequently used field of Data Mining an
 
 
 ## 2. Methodology
-After defining several different data cleaner and preprocessing functions, we implemented for different type of models like: LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, Grid Search algorithm. We tried to observe the efficiency of these models under different data cleaner and preprocessing functions. One of the earlier conclusion was the fact that further cleaning like implementing stemming had a negatif effect on the result. Based on this finding, we tried to hyperparametrize under different models. 
+After defining several different data cleaner and preprocessing functions, we implemented for different type of models like: LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, Grid Search algorithm. We tried to observe the efficiency of these models under different data cleaner and preprocessing functions. One of the earlier conclusion was the fact that further cleaning like implementing stemming had a negative effect on the result. Based on this finding, we tried to hyperparameterize under different models. 
 
 However, one of our final conlcusion was the fact that data cleaning stage could matter a lot. 
+
+Below is an illustration of our methodology.
+![alt text](https://github.com/sarrab/DMML2020_COOP/blob/main/documents/Methodology.PNG?raw=true)
+
 
 ### Aim
 The aim of our project is to train and build Machine Learning models that are able predict whether a tweet about a disaster is real or not with an accuracy outperforming the base rate each time. In this order, our team envisions to explore various possibilities by tunning the parameters of the chosen models so that the best accuracy score will be achieved.
@@ -68,10 +68,17 @@ We defined different cleaning and preprocessing functions to process the tweet t
 Feature engineering playing a crucial role, this work focuses on it. All the parameters, namely text, location and keyword, are considered as important; hence, many of the models are built taking them all into account as predictors. Further, the analysis shows that the length of the word is equally important, our study captures it and thus creates a new feature named Average word length to be used as another predictor. Furthermore, with the explosion of dimensionality space after vectorization by TF_IDF, which this study mainly uses, Principal Component Anlysis is used to reduce the latter dimensionality.
 
 ## 6.Models
-We had tryied different models to increase the test accuracy. We made use of LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier to observe the test results. 
+We had tried different models to increase the test accuracy. We made use of LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier to observe the test results. 
+the graph below shows the efficiency comparaison between models.
+
+![alt text](https://github.com/sarrab/DMML2020_COOP/blob/main/documents/EfficiencyComp.PNG?raw=true)
 
 ## 7. Submissions
 We tried to explore models with parameters that would generate the highest accuracies. Then we fitted with the given data set where labes are known. After this, we run for the test data and made predictions to submitted.  
+
+## 8. Video presentation
+
+[![DMML2020 – Team COOP](")
 
 
 
