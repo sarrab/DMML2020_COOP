@@ -46,6 +46,9 @@ After defining several different data cleaner and preprocessing functions, we im
 
 However, one of our final conlcusion was the fact that data cleaning stage could matter a lot. 
 
+Here is our ![alt text](https://github.com/sarrab/DMML2020_COOP/blob/main/documents/EfficiencyComp.PNG?raw=true)
+
+
 ### Aim
 The aim of our project is to train and build Machine Learning models that are able predict whether a tweet about a disaster is real or not with an accuracy outperforming the base rate each time. In this order, our team envisions to explore various possibilities by tunning the parameters of the chosen models so that the best accuracy score will be achieved.
 
