@@ -69,9 +69,12 @@ Feature engineering playing a crucial role, this work focuses on it. All the par
 
 ## 6.Models
 We had tried different models to increase the test accuracy. We made use of LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier to observe the test results. 
-the graph below shows the efficiency comparaison between models.
+The graph below shows the efficiency comparaison between models.
 
 ![alt text](https://github.com/sarrab/DMML2020_COOP/blob/main/documents/EfficiencyComp.PNG?raw=true)
+
+The graph below shows the accuricies of our models.
+![alt text](https://github.com/sarrab/DMML2020_COOP/blob/main/documents/AccuracyGraph.PNG?raw=true)
 
 ## 7. Submissions
 We tried to explore models with parameters that would generate the highest accuracies. Then we fitted with the given data set where labes are known. After this, we run for the test data and made predictions to submitted.  
