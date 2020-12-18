@@ -11,16 +11,16 @@
   1.2. Some result files to save the resulting accuracies
   
 2. codes
-  2.1 EDA.ipynb : This notebook contains exploratory data analysis and the hyperlinks to other notebooks. We recommend starting from this file. 
-  2.2 Classification_Models : this notebook come after the EDA one. It contain experimentation with all models that we tried.
-  2.3 LR_Models : This model comes after EDA one. And it conatins only Logistic Regeression with raw and cleaned data and feature selection.
-  2.4 Cleaning : It represents the deep cleaning that we performed at the end before applying our last model (last improvements).
-  2.3 Last_Version : It represents our last version based on the conclusions retrieved form previous experiences. But, unfortunately the concurrence site was closed.
+  - 2.1 EDA.ipynb : This notebook contains exploratory data analysis and the hyperlinks to other notebooks. We recommend starting from this file. 
+  - 2.2 Classification_Models : this notebook come after the EDA one. It contain experimentation with all models that we tried.
+  - 2.3 LR_Models : This model comes after EDA one. And it conatins only Logistic Regeression with raw and cleaned data and feature selection.
+  - 2.4 Cleaning : It represents the deep cleaning that we performed at the end before applying our last model (last improvements).
+  - 2.3 Last_Version : It represents our last version based on the conclusions retrieved form previous experiences. But, unfortunately the concurrence site was closed.
   
 3. data:
-  3.1 train_data
-  3.2 test_data
-  3.3 cleaned_data
+  - 3.1 train_data
+  - 3.2 test_data
+  - 3.3 cleaned_data
 ## Video presentation
 
 [![DMML2020 – Team COOP](")
