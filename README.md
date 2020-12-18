@@ -5,10 +5,15 @@
 - Jessy Inaka
 - Sarra Berich
 
+Github depository contains files:
+code: codes for diffent parts
+data: giben trainin and test data of "Disaster Tweets", as well as cleaned data to be used in some models.
+documents: csv files to be submitted for the competitions. A file which contains accuracy results of tree model. 
+
+
 ## Video presentation
 
 [![DMML2020 – Team COOP](")
-
 
 
 ## Table of Contents
