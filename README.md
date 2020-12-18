@@ -46,7 +46,8 @@ After defining several different data cleaner and preprocessing functions, we im
 
 However, one of our final conlcusion was the fact that data cleaning stage could matter a lot. 
 
-Here is our ![alt text](https://github.com/sarrab/DMML2020_COOP/blob/main/documents/EfficiencyComp.PNG?raw=true)
+Below is an illustration of our methodology.
+![alt text](https://github.com/sarrab/DMML2020_COOP/blob/main/documents/Methodology.PNG?raw=true)
 
 
 ### Aim
